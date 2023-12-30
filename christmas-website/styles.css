@@ -1,0 +1,179 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff; /* White background */
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Italianno', cursive;
+  color: #e74c3c; /* Christmas red for h1 */
+}
+
+header {
+  background-color: #fff; /* White background */
+  color: #e74c3c; /* Christmas red */
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+nav {
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #e74c3c; /* Christmas red */
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #e74c3c; /* Lighter red hover color */
+}
+
+main,
+section.gifts,
+section.movies {
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: #e74c3c; /* Christmas red */
+}
+
+.features,
+section.gifts,
+section.movies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature,
+.gift,
+.movie {
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover,
+.gift:hover,
+.movie:hover {
+  transform: scale(1.05);
+}
+
+.feature img,
+.gift img,
+.movie img {
+  width: 100%;
+  height: auto;
+}
+
+.gift-details,
+.movie-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.article {
+  margin-top: 20px; /* Reduced gap */
+}
+
+.article h2,
+.article p,
+.footer-content,
+.snowflake {
+  color: #e74c3c; /* Christmas red */
+}
+
+footer {
+  background-color: #fff; /* White background */
+  color: #e74c3c; /* Christmas red */
+  text-align: center;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.snowfall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-5px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+/* Add any additional styles specific to this page */
+body {
+  background-color: #fff; /* White background */
+}
+
+.about-content {
+  margin-top: 0; /* No margin on top */
+  padding: 10px;
+  text-align: justify;
+}
+
+.article img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Add any additional styles specific to this page */
+.main-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e74c3c; /* Christmas red */
+}
