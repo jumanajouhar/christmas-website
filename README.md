@@ -1,8 +1,6 @@
 # christmas-website
 A Christmas themed website done using HTML, CSS and Javascript as part of WebFlake, a Christmas themed hackathon organized by Tinkerhub.
 
-The video demo can be found at this link: https://clipchamp.com/watch/6DVPCH7VXmW
-
 Preview:
 
 ![image](https://github.com/jumanajouhar/christmas-website/assets/106417445/b14bf1d8-e843-4096-8fa4-e85484fe09fa)
